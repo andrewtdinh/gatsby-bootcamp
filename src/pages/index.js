@@ -2,7 +2,10 @@ import React from "react"
 
 const IndexPage = () => {
   return (
-    <div>My Index Page</div>
+    <div>
+      <h1>Hello!</h1>
+      <h2>I am Andrew Dinh</h2>
+    </div>
   )
 }
 
