@@ -5,8 +5,8 @@ const ContactPage = () => {
     <div>
       <h1>Contact Me</h1>
       <p>
-        You can contact me on LinkedIn 
-        <a>@LinkedIn</a>
+        You can contact me on 
+        <span><a src="https://www.linkedin.com/in/andrewtdinh/">LinkedIn</a></span>
         or
       </p>
     </div>
