@@ -4,14 +4,17 @@ import { Link }  from 'gatsby';
 const Header = () => {
   return (
     <header style={{
-      backgroundColor: "deepskyblue"
+      display: "flex",
+      flexDirection: "column",
+      backgroundColor: "deepskyblue",
+      alignContent: "center"
     }}>
       <h1>The Great Gatsby Bootcamp</h1>
       <div style={{
         display: "flex",
         flexDirection: "row",
         justifyContent: "space-between",
-        alignItems: "center",
+        alignItems: "flex-start",
         width: "200px",
         height: "35px"
       }}>
