@@ -9,14 +9,20 @@ const Header = () => {
       backgroundColor: "deepskyblue",
       alignContent: "center"
     }}>
-      <h1>Trieu (Andrew) Dinh</h1>
+      <h1 style={{
+        marginBottom: ".5rem",
+        marginLeft: "8px"
+      }}>
+        Trieu (Andrew) Dinh
+      </h1>
       <nav style={{
         display: "flex",
         flexDirection: "row",
         justifyContent: "space-between",
         alignItems: "flex-start",
         width: "200px",
-        height: "35px"
+        height: "35px",
+        marginLeft: "10px"
       }}>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
