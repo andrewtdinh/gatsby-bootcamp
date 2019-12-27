@@ -9,8 +9,24 @@ const Header = () => {
       backgroundColor: "deepskyblue",
       alignContent: "center"
     }}>
-      <h1>The Great Gatsby Bootcamp</h1>
-      <div style={{
+      <h1>Trieu (Andrew) Dinh</h1>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/blog">Blog</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+        </ul>
+      </nav>
+      {/* <div style={{
         display: "flex",
         flexDirection: "row",
         justifyContent: "space-between",
@@ -21,7 +37,7 @@ const Header = () => {
         <Link to="/about">About</Link>
         <Link to="/blog">Blog</Link>
         <Link to="/contact">Contact</Link>
-      </div>
+      </div> */}
     </header>
   )
 }
