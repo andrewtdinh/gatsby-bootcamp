@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link }  from 'gatsby';
 
-import './header.scss'
+import headerStyles from './header.module.scss';
 
 const Header = () => {
   return (
@@ -17,7 +17,7 @@ const Header = () => {
       }}>
         Trieu (Andrew) Dinh
       </h1>
-      <nav className="link" style={{
+      <nav style={{
         display: "flex",
         flexDirection: "row",
         justifyContent: "space-between",
@@ -26,10 +26,10 @@ const Header = () => {
         height: "35px",
         marginLeft: "10px"
       }}>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/blog">Blog</Link>
-        <Link to="/contact">Contact</Link>
+        <Link className={headerStyles.link} to="/">Home</Link>
+        <Link className={headerStyles.link} to="/about">About</Link>
+        <Link className={headerStyles.link} to="/blog">Blog</Link>
+        <Link className={headerStyles.link} to="/contact">Contact</Link>
       </nav>
     </header>
   )
