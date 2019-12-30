@@ -26,10 +26,20 @@ const Header = () => {
         // height: "35px",
         // marginLeft: "10px"
       }}>
-        <Link className={headerStyles.link} to="/">Home</Link>
-        <Link className={headerStyles.link} to="/about">About</Link>
-        <Link className={headerStyles.link} to="/blog">Blog</Link>
-        <Link className={headerStyles.link} to="/contact">Contact</Link>
+        <ul>
+          <li>
+            <Link className={headerStyles.link} to="/">Home</Link>
+          </li>
+          <li>
+            <Link className={headerStyles.link} to="/about">About</Link>
+          </li>
+          <li>
+            <Link className={headerStyles.link} to="/blog">Blog</Link>
+          </li>
+          <li>
+            <Link className={headerStyles.link} to="/contact">Contact</Link>
+          </li>
+        </ul>
       </nav>
     </header>
   )
