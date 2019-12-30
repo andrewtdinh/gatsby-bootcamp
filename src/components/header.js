@@ -5,7 +5,9 @@ import headerStyles from './header.module.scss';
 
 const Header = () => {
   return (
-    <header style={{
+    <header 
+      className={headerStyles.header}
+      style={{
       // display: "flex",
       // flexDirection: "column",
       // backgroundColor: "deepskyblue",
