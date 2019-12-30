@@ -17,7 +17,7 @@ const Header = () => {
         // marginBottom: ".5rem",
         // marginLeft: "8px"
       }}>
-        <Link to="/">
+        <Link to="/" className={headerStyles.title}>
           Trieu (Andrew) Dinh
         </Link>
       </h1>
