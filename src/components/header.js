@@ -17,7 +17,7 @@ const Header = () => {
       }}>
         Trieu (Andrew) Dinh
       </h1>
-      <nav style={{
+      <nav className="link" style={{
         display: "flex",
         flexDirection: "row",
         justifyContent: "space-between",
