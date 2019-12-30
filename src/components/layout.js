@@ -7,8 +7,10 @@ import layoutStyles from './layout.module.scss'
 const Layout = ({ children }) => {
   return (
     <div className={layoutStyles.container}>
-      <Header />
-      {children}
+      <div className={layoutStyles.content}>
+        <Header />
+        {children}
+      </div>
       <Footer />
     </div>
   )
