@@ -17,7 +17,9 @@ const Header = () => {
         // marginBottom: ".5rem",
         // marginLeft: "8px"
       }}>
-        Trieu (Andrew) Dinh
+        <Link to="/">
+          Trieu (Andrew) Dinh
+        </Link>
       </h1>
       <nav style={{
         // display: "flex",
