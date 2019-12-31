@@ -30,7 +30,7 @@ const Header = () => {
         // height: "35px",
         // marginLeft: "10px"
       }}>
-        <ul>
+        <ul className={headerStyles.navList}>
           <li>
             <Link className={headerStyles.link} to="/">Home</Link>
           </li>
