@@ -13,10 +13,7 @@ const Header = () => {
       // backgroundColor: "deepskyblue",
       // alignContent: "center"
     }}>
-      <h1 style={{
-        // marginBottom: ".5rem",
-        // marginLeft: "8px"
-      }}>
+      <h1>
         <Link to="/" className={headerStyles.title}>
           Trieu (Andrew) Dinh
         </Link>
