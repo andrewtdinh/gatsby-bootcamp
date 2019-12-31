@@ -5,14 +5,7 @@ import headerStyles from './header.module.scss';
 
 const Header = () => {
   return (
-    <header 
-      className={headerStyles.header}
-      style={{
-      // display: "flex",
-      // flexDirection: "column",
-      // backgroundColor: "deepskyblue",
-      // alignContent: "center"
-    }}>
+    <header className={headerStyles.header}>
       <h1>
         <Link to="/" className={headerStyles.title}>
           Trieu (Andrew) Dinh
