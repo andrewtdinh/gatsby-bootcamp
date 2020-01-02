@@ -22,7 +22,20 @@ const BlogPage = () => {
   return (
     <Layout>
       <h1>Blog</h1>
-      <p>Pages will show up here later on</p>
+      <ol>
+        {data.allMarkdownRemark.edges.map((file) => {
+          return (
+            <li>
+              <h2>
+                {file.node.frontmatter.title}
+              </h2>
+              <p>
+                {file.node.frontmatter.date}
+              </p>
+            </li>
+          )
+        })}
+      </ol>
     </Layout>
   )
 }
