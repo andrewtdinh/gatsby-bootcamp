@@ -34,7 +34,9 @@ const Blog = (props) => {
   const options = {
     renderNode: {
       "embedded-asset-block": (node) => {
-        return <img />
+        const alt = ''
+        const url = ''
+        return <img alt={alt} src={url} />
       }
     }
   }
