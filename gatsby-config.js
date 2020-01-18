@@ -13,7 +13,7 @@ module.exports = {
     author: 'Trieu (Andrew) Dinh'
   },
   plugins: [
-    'gatsby-plugin-react-helmet'
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-contentful',
       options: {
